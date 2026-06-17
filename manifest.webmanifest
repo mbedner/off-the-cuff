@@ -1,0 +1,32 @@
+{
+  "name": "Off the Cuff",
+  "short_name": "Off the Cuff",
+  "description": "Daily improv-inspired speaking drills for clearer, quicker, more confident off-the-cuff answers.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f5ef",
+  "theme_color": "#fff7e8",
+  "categories": ["education", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
