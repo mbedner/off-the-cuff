@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff7e8" />
+    <title>Off the Cuff</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              paper: "#fffaf0",
+              ink: "#1e1b18",
+              muted: "#6e6258",
+              cuff: "#f15a3b",
+              cuffDark: "#bd341f",
+              mint: "#b9eadf",
+              sky: "#b6ddff",
+              sunshine: "#ffd972"
+            },
+            boxShadow: {
+              soft: "0 18px 40px rgba(70, 44, 20, 0.14)"
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="min-h-screen bg-[#f8f5ef] text-ink antialiased">
+    <div id="app"></div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
